@@ -7,35 +7,50 @@ body .footer {
   width: 70vw;
   margin: 0 auto;
 }
-body .main {
+@media (max-width: 500px) {
+  body .main,
+  body .header,
+  body .footer {
+    width: 100%;
+  }
+}
+
+.main {
   height: 100vh;
 }
-body .header img {
+
+.header img {
   width: 100%;
   height: auto;
 }
-body .gauche .badge {
+
+.gauche .badge {
   background-color: #212529;
 }
-body .gauche .tableau {
+.gauche .tableau {
   background-color: black;
 }
-body .gauche .tableau .cl {
+@media (max-width: 500px) {
+  .gauche .tableau {
+    width: 100%;
+  }
+}
+.gauche .tableau .cl {
   border-bottom: 1px solid blue;
 }
-body .gauche .tableau .el {
+.gauche .tableau .el {
   border-bottom: 1px solid orangered;
 }
-body .gauche .tableau .confl {
+.gauche .tableau .confl {
   border-bottom: 1px solid green;
 }
-body .gauche .tableau thead th {
+.gauche .tableau thead th {
   background-color: #161616;
 }
-body .gauche .tableau .tr {
+.gauche .tableau .tr {
   border-bottom: 1px solid black;
 }
-body .gauche .button {
+.gauche .button {
   background-color: #ff7fde;
 }
 

@@ -6,55 +6,63 @@ body {
     .footer {
         width: 70vw;
         margin: 0 auto;
-    }
 
-    .main {
-        height: 100vh;
-    }
-
-    .header {
-        img {
+        @media (max-width: 500px) {
             width: 100%;
-            height: auto;
+        }
+    }
+}
+
+.main {
+    height: 100vh;
+}
+
+.header {
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.gauche {
+
+    .badge {
+        background-color: #212529;
+    }
+
+    .tableau {
+        background-color: black;
+
+        @media (max-width: 500px) {
+            width: 100%;
+        }
+
+        .cl {
+            border-bottom: 1px solid blue;
+        }
+
+        .el {
+            border-bottom: 1px solid orangered;
+        }
+
+        .confl {
+            border-bottom: 1px solid green;
+        }
+
+        thead {
+            th {
+                background-color: #161616;
+            }
+
+        }
+
+        .tr {
+            border-bottom: 1px solid black;
         }
     }
 
-    .gauche {
-
-        .badge {
-            background-color: #212529;
-        }
-
-        .tableau {
-            background-color: black;
-
-            .cl {
-                border-bottom: 1px solid blue;
-            }
-
-            .el {
-                border-bottom: 1px solid orangered;
-            }
-
-            .confl {
-                border-bottom: 1px solid green;
-            }
-
-            thead {
-                th {
-                    background-color: #161616;
-                }
-
-            }
-
-            .tr {
-                border-bottom: 1px solid black;
-            }
-        }
-
-        .button {
-            background-color: #ff7fde;
-        }
-
+    .button {
+        background-color: #ff7fde;
     }
+
 }

@@ -1,0 +1,42 @@
+body {
+  background-color: #161616;
+}
+body .main,
+body .header,
+body .footer {
+  width: 70vw;
+  margin: 0 auto;
+}
+body .main {
+  height: 100vh;
+}
+body .header img {
+  width: 100%;
+  height: auto;
+}
+body .gauche .badge {
+  background-color: #212529;
+}
+body .gauche .tableau {
+  background-color: black;
+}
+body .gauche .tableau .cl {
+  border-bottom: 1px solid blue;
+}
+body .gauche .tableau .el {
+  border-bottom: 1px solid orangered;
+}
+body .gauche .tableau .confl {
+  border-bottom: 1px solid green;
+}
+body .gauche .tableau thead th {
+  background-color: #161616;
+}
+body .gauche .tableau .tr {
+  border-bottom: 1px solid black;
+}
+body .gauche .button {
+  background-color: #ff7fde;
+}
+
+/*# sourceMappingURL=style.css.map */
